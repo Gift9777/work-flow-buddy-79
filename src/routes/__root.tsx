@@ -91,10 +91,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "AI-powered assistant for professionals: draft emails, summarize meetings, and plan your week.",
+          "AI-powered assistant for professionals: draft emails, summarize meetings, and plan your week in seconds.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Flowdesk AI — Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "AI-powered assistant for professionals: draft emails, summarize meetings, and plan your week in seconds." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/70b6e361-ee21-46c4-8ad6-c10cee7d7048/id-preview-a8dcc0f9--875a5f0e-fc40-4d31-a213-52c6b2e1ff55.lovable.app-1783946297028.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/70b6e361-ee21-46c4-8ad6-c10cee7d7048/id-preview-a8dcc0f9--875a5f0e-fc40-4d31-a213-52c6b2e1ff55.lovable.app-1783946297028.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
